@@ -1,4 +1,40 @@
 site_name: horriblegraphics Docs
 site_url: https://constcorrectness.github.io/horriblegraphics
+
 theme:
   name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: this mode sucks
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: DARK mode
+  icon:
+    repo: fontawesome/brands/github
+
+repo_name: ConstCorrectness/horriblegraphics
+repo_url: https://github.com/ConstCorrectness/horriblegraphics
+
+extra:
+  social:
+    - icon: simple/buymeacoffee
+      link: https://buymeacoffee.com/horriblecpp
+      name: "Spare Change Squidward meme"
