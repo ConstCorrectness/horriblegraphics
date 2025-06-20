@@ -1,0 +1,4 @@
+site_name: horriblegraphics Docs
+site_url: https://constcorrectness.github.io/horriblegraphics
+theme:
+  name: material

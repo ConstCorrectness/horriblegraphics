@@ -1,0 +1,22 @@
+[project]
+name = "horriblegraphics"
+version = "0.0.1"
+description = "Some Graphics Stuff"
+
+authors = [
+  { name = "Const Correctness", email = "horrible.cpp.guru@gmail.com" }
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "mkdocs"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
